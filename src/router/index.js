@@ -1,14 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Favorites from "../views/Favorites.vue";
+import FavoritesView from "../views/FavoritesView.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Favorites",
-    component: Favorites
+    name: "FavoritesView",
+    component: FavoritesView
   }
 ];
 
